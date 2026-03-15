@@ -62,3 +62,19 @@ To sync changes back:
 ```bash
 cp context-bar.sh ~/.claude/scripts/context-bar.sh
 ```
+
+## Compatibility
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| **Linux** | Full support | Primary target |
+| **macOS** | Full support | `stat` fallback already handled |
+| **Windows** | Via WSL only | Run inside WSL — Claude Code on Windows uses WSL anyway |
+
+Dependencies: `bash`, `git`, `jq`, `python3` (for `remove-offpeak.sh`). All standard on Linux/macOS.
+
+## See Also
+
+- [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips/tree/main) — inspiration for the status line customization (Tip 0)
+- [Claude March 2026 Usage Promotion](https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion) — the promotion these scripts track
+- [Facebook post](https://www.facebook.com/adrian.delrosario.39/posts/pfbid02vdbkM73QQz7H3rYRAkcCKMKsKBB4jKdygSQPJ1qAb7HrmdQ3XMB882QSPxmpnd15l) — sharing this with the Claude Code community
