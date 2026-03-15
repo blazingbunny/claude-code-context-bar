@@ -1,6 +1,6 @@
 # context-bar
-
-Customized Claude Code status line scripts. Inspired by [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips/tree/main) — specifically Tip 0 on status line customization.
+As mentioned on my social media posts:
+[Facebook post](https://www.facebook.com/adrian.delrosario.39/posts/pfbid02vdbkM73QQz7H3rYRAkcCKMKsKBB4jKdygSQPJ1qAb7HrmdQ3XMB882QSPxmpnd15l) — sharing this with the Claude Code community
 
 ## Files
 
@@ -77,4 +77,4 @@ Dependencies: `bash`, `git`, `jq`, `python3` (for `remove-offpeak.sh`). All stan
 
 - [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips/tree/main) — inspiration for the status line customization (Tip 0)
 - [Claude March 2026 Usage Promotion](https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion) — the promotion these scripts track
-- [Facebook post](https://www.facebook.com/adrian.delrosario.39/posts/pfbid02vdbkM73QQz7H3rYRAkcCKMKsKBB4jKdygSQPJ1qAb7HrmdQ3XMB882QSPxmpnd15l) — sharing this with the Claude Code community
+
